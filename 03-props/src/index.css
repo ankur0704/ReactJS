@@ -1,0 +1,31 @@
+.card{
+  width: 200px;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.parent{
+  padding: 20px;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+
+.card button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.card img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
